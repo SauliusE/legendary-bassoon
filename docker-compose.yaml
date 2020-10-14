@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  jenkins:
+    image: pwt/jenkins:latest
+    ports:
+      - 50000:50000
+      - 8080:8080
