@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.235.1 
+FROM jenkins/jenkins:2.249.2
 
 LABEL maintainer="saulius.eidukas@eficode.com"
 
