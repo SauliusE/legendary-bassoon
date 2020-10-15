@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  jenkins:
+    image: pwt/jenkins:latest
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+      - ./jcasc_config:/var/jenkins_conf
+    ports:
+      - 50000:50000
+      - 8080:8080
+    environment:
+      - CASC_JENKINS_CONFIG=/var/jenkins_conf
