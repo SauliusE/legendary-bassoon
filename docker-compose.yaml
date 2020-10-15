@@ -5,9 +5,15 @@ services:
     image: pwt/jenkins:latest
     volumes:
       - ./jenkins_home:/var/jenkins_home
+<<<<<<< HEAD
       - ./jcasc_config:/var/jenkins_conf
     ports:
       - 50000:50000
       - 8080:8080
     environment:
       - CASC_JENKINS_CONFIG=/var/jenkins_conf
+=======
+    ports:
+      - 50000:50000
+      - 8080:8080
+>>>>>>> 8c11e13d6fae00a990b7f42ac2dd3e44e5a4dc0d
