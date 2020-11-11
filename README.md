@@ -11,3 +11,5 @@ pluginList.sort { it.getShortName() }.each{
 }
 null
 ```
+
+Getting started with Jenkins configuration as code:  https://github.com/jenkinsci/configuration-as-code-plugin#getting-started
